@@ -123,7 +123,7 @@ for paste in paste_list_json:
         paste_data['SHA256'] = sha256
         paste_data['raw_paste'] = raw_paste_data
         paste_data['YaraRule'] = results
-        stored = es.index(index='paste-test', doc_type='paste', id=paste['key'], body=paste_data)
+        stored = es.index(index='pastebin', doc_type='paste', id=paste['key'], body=paste_data)
         store_count += 1
         print(stored)
 
