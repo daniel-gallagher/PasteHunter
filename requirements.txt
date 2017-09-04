@@ -1,3 +1,4 @@
+yara-python
 requests
 elasticsearch
 configparser
