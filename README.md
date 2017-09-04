@@ -6,7 +6,7 @@ Scan pastebin pastes with a collection of yara rules.
 You need a Pro account on pastebin that has access to the scraping API.
 https://pastebin.com/api_scraping_faq
 
-Yara 
+Yara
 Python3
 Elastic Search Kibana optional
 
@@ -21,12 +21,14 @@ https://www.elastic.co/guide/en/kibana/current/deb.html
 ## Yara
 https://yara.readthedocs.io/en/v3.6.0/gettingstarted.html#compiling-and-installing-yara
 
-Don't forget the python bindings
-```pip install yara-python```
-
+## pip3
+sudo apt-get install python3-pip
 
 ## This little app
 git clone https://github.com/kevthehermit/pastehunter
+
+## Install dependencies
+sudo pip3 install -r requirements.txt
 
 # Configure
 
