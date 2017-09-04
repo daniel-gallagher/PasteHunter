@@ -5,7 +5,7 @@ paste_limit = 200
 store_all = false
 
 [database]
-elastic_host = 192.168.1.1
+elastic_host = 127.0.0.1
 elastic_port = 9200
 
 [yara]
