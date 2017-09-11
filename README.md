@@ -24,8 +24,8 @@ https://yara.readthedocs.io/en/v3.6.0/gettingstarted.html#compiling-and-installi
 ## pip3
 sudo apt-get install python3-pip
 
-## This little app
-git clone https://github.com/kevthehermit/pastehunter
+## PasteHunter
+git clone https://github.com/daniel-gallagher/pastehunter
 
 ## Install dependencies
 sudo pip3 install -r requirements.txt
@@ -41,6 +41,6 @@ I set a cronjob to run this script every two minutes with a pastelimit of 200
 ```
 localadmin@pastebin:~/pastehunter$ cat /etc/cron.d/pastehunter
 # Run every 5 minutes
-*/2 * * * *   localadmin  cd /home/localadmin/pastehunter && python3 pastabean.py >> /home/localadmin/pastehunter/cronlog.txt
+*/2 * * * *   localadmin  cd /home/localadmin/pastehunter && python3 pastehunter.py >> /home/localadmin/pastehunter/cronlog.txt
 localadmin@pastebin:~/pastehunter$
 ```
