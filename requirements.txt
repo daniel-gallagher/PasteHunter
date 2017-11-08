@@ -1,4 +1,4 @@
 yara-python
-requests
-elasticsearch
 configparser
+requests==2.18.4
+elasticsearch>=5.0.0,<6.0.0
